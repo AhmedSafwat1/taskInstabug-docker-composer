@@ -24,6 +24,8 @@ Things you may want to cover:
 * ...
 # TaskInstabug
   try to using docker-composer but have conflict with elasticsearch because the port 9200 conflict with other and when connect with it in rails give error but all run so if the probleam apperance can use  next step instead it
+  * run docker-compose build
+  * run docker-compose up
 # First 
 * must have docker if not have install it from https://www.docker.com/
 * run the next line to install the  elasticsearch in you machine
@@ -32,8 +34,8 @@ Things you may want to cover:
     -p 9200:9200 \
     elasticsearch:6.8.1
 
-# bundle install to install gem 
-* run rake db:create
+# bundle install to install gem new
+* run rake db:create when docker uisng docker-compose run web rake db:create  
 
 # second 
 * can import the link in postman an testing the api cal 
