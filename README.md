@@ -34,8 +34,9 @@ Things you may want to cover:
     -p 9200:9200 \
     elasticsearch:6.8.1
 
-# bundle install to install gem new
+# bundle install to install gem new when docker uisng docker-compose run web  bundle install
 * run rake db:create when docker uisng docker-compose run web rake db:create  
+* run rails db:migrate when docker uisng docker-compose run web rails db:migrate
 
 # second 
 * can import the link in postman an testing the api cal 
