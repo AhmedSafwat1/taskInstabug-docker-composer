@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 # TaskInstabug
-  try to using docker-composer but have conflict with elasticsearch because the port 9200 conflict with other and when connect with it in rails give erroor but all run so if the probleam apperance can use  next step instead it
+  try to using docker-composer but have conflict with elasticsearch because the port 9200 conflict with other and when connect with it in rails give error but all run so if the probleam apperance can use  next step instead it
 # First 
 * must have docker if not have install it from https://www.docker.com/
 * run the next line to install the  elasticsearch in you machine
